@@ -3,6 +3,7 @@ import AboutMe from './components/AboutMe.jsx';
 import TechStack from './components/TechStack.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Projects/>
         </div>
         <Contact/>
+        <Analytics />
       </>
   )
 }

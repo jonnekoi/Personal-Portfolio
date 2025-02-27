@@ -38,7 +38,7 @@ const aboutMe = () => {
           <h2 className="text-orange-400 text-2xl font-myFont">{displayedText}</h2>
         </section>
         <section className="w-2/4 about-me-mobile">
-          <h3 className="text-white text-2xl font-bold m-10 font-myFont">About
+          <h3 className="text-white text-2xl font-bold m-10 code-text">About
             Me</h3>
           <p className="text-white code-text">
             Hello, I&#39;m Jonne, a passionate software engineer from Finland.
