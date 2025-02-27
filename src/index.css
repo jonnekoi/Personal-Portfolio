@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #333b64;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.code-text {
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+}
+
+.circle-background {
+  position: relative;
+}
+
+.circle-background::before {
+  content: '';
+  position: absolute;
+  top: -7%;
+  right: -150%;
+  width: 1500px;
+  height: 1500px;
+  background-color: #353f72;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.tech-card {
+  background-color: #353f72;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 6rem;
+  width: 15rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: white 0px 0px 10px;
+}
+.tech-card:hover {
+
+}
+
+.project-card:hover {
+
+}
+
+.project-card {
+  background-color: #353f72;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: white 0px 0px 10px;
+}
+
+.project-card h1 {
+  font-weight: bold;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-large {
+  font-size: 5rem;
+}
+
+.section-margin {
+  margin: 150px;
+}
+
