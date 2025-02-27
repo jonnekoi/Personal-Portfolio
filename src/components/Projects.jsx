@@ -36,7 +36,7 @@ const projects = [
 const Projects = () => {
   return (
       <section className="text-center m-14 w-3/5 project-mobile">
-        <h3 className="text-white font-bold text-2xl m-10 font-myFont">Projects</h3>
+        <h3 className="text-white font-bold text-2xl m-10 code-text">Projects</h3>
         <div className="grid grid-cols-3 grid-flow-row m-7 grid-project-mobile">
           {projects.map((project, index) => (
               <motion.div

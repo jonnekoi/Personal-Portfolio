@@ -7,7 +7,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        myFont: ['myFont', 'cursive'],
         inter: ['Inter', 'sans-serif'],
       },
       colors: {

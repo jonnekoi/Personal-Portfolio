@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
       <section className="text-center m-14 flex-col flex">
-        <h3 className="text-white font-bold text-2xl font-myFont m-7">Contact
+        <h3 className="text-white font-bold text-2xl code-text m-7">Contact
           me</h3>
         <p className="max-w-110 text-white code-text m-12">You can contact me
           either on LinkedIn or email!</p>

@@ -22,7 +22,7 @@ const techs = [
 const TechStack = () => {
   return (
       <div>
-        <h3 className="text-white font-bold text-2xl font-myFont">Technologies</h3>
+        <h3 className="text-white font-bold text-2xl code-text">Technologies</h3>
         <div
             className="grid grid-cols-4 grid-flow-row mt-20 grid-tech-mobile">
           {techs.map((tech, index) => (
