@@ -5,31 +5,40 @@ const projects = [
     title: "Air Travellers Challenge",
     description: "This was the first coding project I was part of. This game has two versions, the first one worked with a terminal without a user interface and the second version had a UI. The idea of the game is to travel around the world with as low consumption as possible, answer questions on the way and earn points. Correct guesses earn you money to travel.",
     technologies: "Python, JavaScript, HTML, CSS",
+    githublink: "https://github.com/jonnekoi/Ohjelmisto2_projekti/tree/main/Ohjelmisto1_projekti/Air-Travellers-Challengee"
   },
   {
     title: "Cake Factory",
     description: "This project was part of our web development studies. Our goal was to create an online shop for pastries with a dashboard for the owner to manage the site. I was responsible for the front-end development of the project, mainly on the dashboard. I also contributed to the back-end development with my team.",
     technologies: "JavaScript, Node.js, HTML, CSS, MariaDB",
+    githublink: "https://github.com/jonnekoi/Cake-Factory",
+    servergithublink: "https://github.com/hinmiro/CakeFactoryBackend"
   },
   {
     title: "Inventory Management System",
     description: "We created a simple inventory management system. The main focus of this project was not just the final product, but also learning agile methodologies, project management, testing and documentation. In summary, this was more about understanding the whole lifecycle of a software product.",
     technologies: "Java, Spring Boot, JavaFX, MariaDB, Junit, Jenkins, Docker",
+    githublink: "https://github.com/Jafestro/Inventory-Management-Sys"
   },
   {
     title: "Euro 2024 Guesses",
     description: "This was my personal project, developed for me and my friends. We had an issue where Excel was not the best tool for our purpose, as it allowed everyone to see each other's guesses. I developed a web app where we can guess football match scores and earn points. So I developed this project and deployed it on a Rocky Linux server.",
     technologies: "JavaScript, Node.js, React, Tailwind, MariaDB",
+    githublink: "https://github.com/jonnekoi/euro2024Front",
+    servergithublink: "https://github.com/jonnekoi/euro2024"
   },
   {
     title: "League Guesser",
     description: "This is the second version of my personal project, Euro 2024 Guesses. Inspired by the first one, I started working on this more generalized version. It allows users to create their own leagues, invite friends, and start guessing. Users can also add custom matches to their leagues.",
     technologies: "JavaScript, Node.js, React, Tailwind, MariaDB",
+    githublink: "https://github.com/jonnekoi/fmm-front",
+    servergithublink: "https://github.com/jonnekoi/FMM"
   },
   {
     title: "Personal Portfolio",
     description: "As you can probably guess, this site! The purpose is to provide a brief overview of my skills and experience. I wanted to have a simple, clean design to showcase my work effectively.",
     technologies: "JavaScript, React, Tailwind",
+    githublink: "https://github.com/jonnekoi/Personal-Portfolio"
   },
 ];
 
@@ -55,6 +64,18 @@ const Projects = () => {
                 <p className="m-5 text-gray-300">
                   <span className="font-semibold">Technologies:</span> {project.technologies}
                 </p>
+                <div className="project-git-links">
+                  <a href={project.githublink} target="_blank" rel="noreferrer"
+                     className="text-orange-400 hover:text-orange-500">
+                    GitHub
+                  </a>
+                  {project.servergithublink && (
+                      <a href={project.servergithublink} target="_blank" rel="noreferrer"
+                         className="text-orange-400 hover:text-orange-500 ml-5">
+                        GitHub Backend
+                      </a>
+                  )}
+                </div>
               </motion.div>
           ))}
         </div>

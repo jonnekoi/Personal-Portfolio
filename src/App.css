@@ -59,6 +59,12 @@ body {
   font-size: 5rem;
 }
 
+.project-git-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+}
+
 @Media (max-width: 600px) {
   .about-me-mobile {
     width: 90%;
