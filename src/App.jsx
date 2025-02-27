@@ -14,7 +14,6 @@ function App() {
           <Projects/>
         </div>
         <Contact/>
-        <Analytics />
       </>
   )
 }
