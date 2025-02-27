@@ -65,12 +65,12 @@ body {
   margin-top: auto;
 }
 
-@Media (max-width: 600px) {
+@Media (max-width: 860px) {
   .about-me-mobile {
     width: 90%;
   }
   .grid-tech-mobile {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
   }
   .tech-card{
@@ -105,4 +105,9 @@ body {
   }
 }
 
-
+@media (max-width: 600px) {
+  .grid-tech-mobile {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+}
