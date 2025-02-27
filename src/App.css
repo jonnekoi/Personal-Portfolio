@@ -87,6 +87,16 @@ body {
   .mobile-name {
     font-size: 2.5rem;
   }
+  .contact-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: auto;
+  }
+  .contact-item {
+    margin: 10px;
+  }
 }
 
 
