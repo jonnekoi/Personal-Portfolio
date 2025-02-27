@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import {useEffect, useState} from 'react';
 
 const techs = [
   { icon: "devicon-javascript-plain", name: "JavaScript" },
@@ -25,9 +26,9 @@ const techs = [
 const TechStack = () => {
   return (
       <div>
-        <h3 className="text-white font-bold text-2xl code-text">Tech Stack</h3>
+        <h3 className="move-text text-white font-bold text-3xl code-text">Tech Stack</h3>
         <div
-            className="grid grid-cols-4 grid-flow-row mt-20 grid-tech-mobile">
+            className="grid grid-cols-4 grid-flow-row mt-10 grid-tech-mobile">
           {techs.map((tech, index) => (
               <motion.div
                   key={tech.name}

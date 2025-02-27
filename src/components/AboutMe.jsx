@@ -35,10 +35,10 @@ const aboutMe = () => {
           </div>
           <h1 className="text-white text-6xl font-bold code-text mobile-name">Jonne
             Koivisto</h1>
-          <h2 className="text-orange-400 text-2xl font-myFont">{displayedText}</h2>
+          <h2 className="text-orange-400 text-3xl font-myFont">{displayedText}</h2>
         </section>
         <section className="w-2/4 about-me-mobile">
-          <h3 className="text-white text-2xl font-bold m-10 code-text">About
+          <h3 className="text-white text-3xl font-bold m-10 code-text">About
             Me</h3>
           <p className="text-white code-text">
             Hello, I&#39;m Jonne, a passionate software engineer from Finland.
