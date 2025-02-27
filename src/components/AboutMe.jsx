@@ -30,7 +30,7 @@ const aboutMe = () => {
       >
         <section className="mt-8">
           <div className="w-2/4 m-auto">
-            <img src="src/assets/ProfilePic.jpg" alt="Profile Picture"
+            <img src="/src/assets/ProfilePic.jpg" alt="Profile Picture"
                  className="rounded-full mb-4"/>
           </div>
           <h1 className="text-white text-6xl font-bold font-myFont">Jonne
