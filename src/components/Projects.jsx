@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "Air Travellers Challenge",
-    description: "This was the first coding project I was part of. This game has two versions, the first one worked with a terminal without a user interface, and the second version had a UI. The idea of the game is to travel around the world with as low consumption as possible, answer questions on the way, and earn points. Correct guesses earn you money to travel.",
+    description: "This was the first coding project I was part of. This game has two versions, the first one worked with a terminal without a user interface and the second version had a UI. The idea of the game is to travel around the world with as low consumption as possible, answer questions on the way and earn points. Correct guesses earn you money to travel.",
     technologies: "Python, JavaScript, HTML, CSS",
   },
   {
@@ -13,12 +13,12 @@ const projects = [
   },
   {
     title: "Inventory Management System",
-    description: "We created a simple inventory management system. The main focus of this project was not just the final product, but also learning agile methodologies, project management, testing, and documentation. In summary, this was more about understanding the whole lifecycle of a software product.",
+    description: "We created a simple inventory management system. The main focus of this project was not just the final product, but also learning agile methodologies, project management, testing and documentation. In summary, this was more about understanding the whole lifecycle of a software product.",
     technologies: "Java, Spring Boot, JavaFX, MariaDB, Junit, Jenkins, Docker",
   },
   {
     title: "Euro 2024 Guesses",
-    description: "This was my personal project, developed for me and my friends. We had an issue where Excel was not the best tool for our purpose, as it allowed everyone to see each other's guesses. So I developed this project and deployed it on a Rocky Linux server.",
+    description: "This was my personal project, developed for me and my friends. We had an issue where Excel was not the best tool for our purpose, as it allowed everyone to see each other's guesses. I developed a web app where we can guess football match scores and earn points. So I developed this project and deployed it on a Rocky Linux server.",
     technologies: "JavaScript, Node.js, React, Tailwind, MariaDB",
   },
   {
