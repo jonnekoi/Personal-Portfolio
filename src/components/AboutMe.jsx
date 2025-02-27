@@ -33,7 +33,7 @@ const aboutMe = () => {
             <img src="/ProfilePic.jpg" alt="Profile Picture"
                  className="rounded-full mb-4"/>
           </div>
-          <h1 className="text-white text-6xl font-bold code-text">Jonne
+          <h1 className="text-white text-6xl font-bold code-text mobile-name">Jonne
             Koivisto</h1>
           <h2 className="text-orange-400 text-2xl font-myFont">{displayedText}</h2>
         </section>
