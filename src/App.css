@@ -1,9 +1,83 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   text-align: center;
+  overflow: hidden;
 }
+
+body {
+  cursor: crosshair;
+}
+
+.code-text {
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+}
+
+.tech-card {
+  background-color: #353f72;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Fira Code', monospace;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: white 0px 0px 10px;
+}
+
+.button {
+  box-shadow: white 0px 0px 10px;
+}
+
+.project-card {
+  background-color: #353f72;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: white 0px 0px 10px;
+}
+
+.project-card h1 {
+  font-weight: bold;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-large {
+  font-size: 5rem;
+}
+
+@Media (max-width: 600px) {
+  .about-me-mobile {
+    width: 90%;
+  }
+  .grid-tech-mobile {
+    grid-template-columns: 1fr;
+  }
+  .grid-project-mobile {
+    grid-template-columns: 1fr;
+  }
+  .project-mobile {
+    width: 100%;
+  }
+  .arrow-mobile {
+    display: none;
+  }
+  .button {
+    width: 80%;
+  }
+}
+
+
