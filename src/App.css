@@ -70,7 +70,13 @@ body {
     width: 90%;
   }
   .grid-tech-mobile {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .tech-card{
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
   }
   .grid-project-mobile {
     grid-template-columns: 1fr;

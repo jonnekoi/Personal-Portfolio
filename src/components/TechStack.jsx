@@ -9,20 +9,23 @@ const techs = [
   { icon: "devicon-tailwindcss-original", name: "Tailwind CSS" },
   { icon: "devicon-nodejs-plain-wordmark", name: "Node.js" },
   { icon: "devicon-spring-original", name: "Spring Boot" },
-  { icon: "devicon-express-original-wordmark", name: "Express" },
+  { icon: "devicon-express-original", name: "Express" },
   { icon: "devicon-mariadb-original", name: "MariaDB" },
   { icon: "devicon-git-plain", name: "Git" },
   { icon: "devicon-github-original", name: "GitHub" },
   { icon: "devicon-figma-plain", name: "Figma" },
   { icon: "devicon-jenkins-line", name: "Jenkins" },
   { icon: "devicon-docker-plain", name: "Docker" },
-  { icon: "devicon-junit-plain-wordmark", name: "Junit" },
+  { icon: "devicon-junit-plain", name: "Junit" },
+  { icon: "devicon-flask-original", name: "Flask" },
+  { icon: "devicon-canva-original", name: "Canva" },
+  { icon: "devicon-trello-plain", name: "Trello" },
 ];
 
 const TechStack = () => {
   return (
       <div>
-        <h3 className="text-white font-bold text-2xl code-text">Technologies</h3>
+        <h3 className="text-white font-bold text-2xl code-text">Tech Stack</h3>
         <div
             className="grid grid-cols-4 grid-flow-row mt-20 grid-tech-mobile">
           {techs.map((tech, index) => (
