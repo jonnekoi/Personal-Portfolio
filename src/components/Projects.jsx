@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "Air Travellers Challenge",
-    description: "This was the first coding project I was part of. This game has two versions: the first one worked with a terminal without a user interface, and the second version had a UI. The idea of the game is to travel around the world with as low consumption as possible, answer questions on the way, and earn points. Correct guesses earned you money to travel.",
+    description: "This was the first coding project I was part of. This game has two versions, the first one worked with a terminal without a user interface, and the second version had a UI. The idea of the game is to travel around the world with as low consumption as possible, answer questions on the way, and earn points. Correct guesses earn you money to travel.",
     technologies: "Python, JavaScript, HTML, CSS",
   },
   {
