@@ -49,7 +49,7 @@ const aboutMe = () => {
             I&#39;m currently pursuing a degree in Information and Communication
             Technology at Metropolia University of Applied Sciences, majoring in
             software development with emphasis in
-            machine learning and neural networks. I have deep interest machine learning and AI.
+            machine learning and neural networks. I have deep interest in machine learning and AI.
           </p>
           <p className="text-white code-text mt-5">
             My approach to development is both technical and creative I enjoy
