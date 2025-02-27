@@ -15,7 +15,7 @@ body {
 }
 
 .tech-card {
-  background-color: #353f72;
+  background-color: #16264d;
   margin: 10px;
   padding: 20px;
   border-radius: 10px;
@@ -34,7 +34,7 @@ body {
 }
 
 .project-card {
-  background-color: #353f72;
+  background-color: #16264d;
   margin: 10px;
   padding: 20px;
   border-radius: 10px;
@@ -57,6 +57,7 @@ body {
 
 .icon-large {
   font-size: 5rem;
+  color: white;
 }
 
 .project-git-links {
@@ -83,6 +84,7 @@ body {
   }
   .project-mobile {
     width: 100%;
+    margin: 0;
   }
   .arrow-mobile {
     display: none;
@@ -102,6 +104,9 @@ body {
   }
   .contact-item {
     margin: 10px;
+  }
+  .on-mobile-ham {
+    display: none;
   }
 }
 

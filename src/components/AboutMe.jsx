@@ -23,7 +23,7 @@ const aboutMe = () => {
 
   return (
       <motion.div
-          className="flex flex-col justify-center items-center"
+          className="flex flex-col justify-center items-center bg-buttonColor"
           initial={{opacity: 0, y: 20}}
           animate={{opacity: 1, y: 0}}
           transition={{duration: 1}}
@@ -31,7 +31,7 @@ const aboutMe = () => {
         <section className="mt-8">
           <div className="w-2/4 m-auto">
             <img src="/ProfilePic.jpg" alt="Profile Picture"
-                 className="rounded-full mb-4"/>
+                 className="rounded-full mb-4 border-4 border-orange-400"/>
           </div>
           <h1 className="text-white text-6xl font-bold code-text mobile-name">Jonne
             Koivisto</h1>

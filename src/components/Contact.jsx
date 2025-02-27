@@ -12,14 +12,12 @@ const Contact = () => {
   return (
       <section className="text-center m-14 flex-col flex">
         <h3 className="text-white font-bold text-3xl code-text m-7">Contact
-          me</h3>
-        <p className="max-w-110 text-white code-text m-12">You can contact me
-          either on LinkedIn or email!</p>
+          </h3>
         <div className="flex w-1/4 m-auto align-middle contact-icons">
           <a className="w-fit m-auto contact-item"
              href="https://www.linkedin.com/in/jonnekoivisto" target="_blank"
              rel="noopener noreferrer">
-            <i className="devicon-linkedin-plain colored colored icon-large"></i>
+            <i className="devicon-linkedin-plain colored  icon-large"></i>
           </a>
           <svg onClick={handleCopyEmail} xmlns="http://www.w3.org/2000/svg"
                fill="none"
