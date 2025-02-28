@@ -28,7 +28,7 @@ const aboutMe = () => {
           animate={{opacity: 1, y: 0}}
           transition={{duration: 1}}
       >
-        <section className="mt-8">
+        <section className="mt-6">
           <div className="w-2/4 m-auto">
             <img src="/ProfilePic.jpg" alt="Profile Picture"
                  className="rounded-full mb-4 border-4 border-orange-400"/>
