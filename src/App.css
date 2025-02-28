@@ -72,7 +72,7 @@ body {
   margin-top: auto;
 }
 
-@Media (max-width: 990px) {
+@Media (max-width: 860px) {
   .about-me-mobile {
     width: 90%;
   }
