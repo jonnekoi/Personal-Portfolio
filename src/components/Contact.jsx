@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
       <section className="text-center m-14 flex-col flex">
-        <h3 className="text-white font-bold text-3xl code-text m-7">Contact
+        <h3 className="text-white font-bold text-3xl poppins-font m-7">Contact
           </h3>
         <div className="flex w-1/4 m-auto align-middle contact-icons">
           <a className="w-fit m-auto contact-item"
