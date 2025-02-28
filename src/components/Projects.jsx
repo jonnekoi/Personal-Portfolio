@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Euro 2024 Guesses",
-    description: "This was my personal project, developed for me and my friends. We had an issue where Excel was not the best tool for our purpose, as it allowed everyone to see each other's guesses. I developed a web app where we can guess football match scores and earn points. So I developed this project and deployed it on a Rocky Linux server.",
+    description: "This was a personal project I developed for myself and my friends. We needed a better solution than Excel, which made everyone's guesses visible to each other. To solve this, I built a web app where we could predict football match scores and earn points while keeping our guesses private. I then deployed the project on a Rocky Linux server.",
     technologies: "JavaScript, Node.js, React, Tailwind, MariaDB",
     icon: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" strokeWidth={1.5} stroke=\"currentColor\" className=\"size-6\">\n" +
         "  <path strokeLinecap=\"round\" strokeLinejoin=\"round\" d=\"m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125\" />\n" +
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: "League Guesser",
-    description: "This is the second version of my personal project, Euro 2024 Guesses. Inspired by the first one, I started working on this more generalized version. It allows users to create their own leagues, invite friends, and start guessing. Users can also add custom matches to their leagues.",
+    description: "This is the second version of my personal project, Euro 2024 Guesses. Inspired by the first one, I started working on this more enhanced version. It allows users to create their own leagues, invite friends and start guessing match scores. Users can also add custom matches to their leagues.",
     technologies: "JavaScript, Node.js, React, Tailwind, MariaDB",
     icon: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" strokeWidth={1.5} stroke=\"currentColor\" className=\"size-6\">\n" +
         "  <path strokeLinecap=\"round\" strokeLinejoin=\"round\" d=\"m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10\" />\n" +
