@@ -49,7 +49,7 @@ const aboutMe = () => {
             I&#39;m currently pursuing a degree in Information and Communication
             Technology at Metropolia University of Applied Sciences, majoring in
             software development with emphasis in
-            machine learning and neural networks. I have deep interest in machine learning and AI.
+            machine learning and neural networks.
           </p>
           <p className="text-white code-text mt-5">
             My approach to development is both technical and creative I enjoy
@@ -61,8 +61,8 @@ const aboutMe = () => {
             I find excitement in every stage of the development process.
           </p>
           <p className="text-white code-text mt-5">
-            Outside of coding, I stay active by hitting the gym and playing
-            football a few times a week.
+            In my free time, I enjoy going to the gym and I also play football a few times a week.
+            I also enjoy playing different video games.
           </p>
         </section>
         <div className="m-5 arrow-mobile">
