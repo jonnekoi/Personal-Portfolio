@@ -97,13 +97,13 @@ const Projects = () => {
                   {project.servergithublink && (
                       <a href={project.servergithublink} target="_blank" rel="noreferrer"
                          className="text-orange-400 hover:text-orange-500 m-1">
-                        GitHub Backend
+                        Backend
                       </a>
                   )}
                   {project.photoslink && (
                   <a href={project.photoslink} target="_blank" rel="noreferrer"
                       className="text-orange-400 hover:text-orange-500 m-1">
-                      Github Photos
+                      Ui-Photos
                   </a>
                   )}
                 </div>
