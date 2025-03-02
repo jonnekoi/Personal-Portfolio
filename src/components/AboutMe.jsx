@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const aboutMe = () => {
   const fullText = "Software Engineer";
-  const typingSpeed = 80;
+  const typingSpeed = 120;
 
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [displayedText, setDisplayedText] = useState("");
