@@ -112,9 +112,6 @@ body {
   .contact-item {
     margin: 10px;
   }
-  .on-mobile-ham {
-    display: none;
-  }
 }
 
 @media (max-width: 600px) {
