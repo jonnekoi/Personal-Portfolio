@@ -98,10 +98,12 @@ const Projects = () => {
                   <span className="font-semibold">Technologies:</span> {project.technologies}
                 </p>
                 <div className="project-git-links">
+                  {project.githublink && (
                   <a href={project.githublink} target="_blank" rel="noreferrer"
                      className="text-orange-400 hover:text-orange-500 m-1">
                     GitHub
                   </a>
+                )}
                   {project.servergithublink && (
                       <a href={project.servergithublink} target="_blank" rel="noreferrer"
                          className="text-orange-400 hover:text-orange-500 m-1">
